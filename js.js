@@ -312,8 +312,8 @@ function quiteSubmit(e) {
 }
 //task 18
 const upload = document.querySelector('#eighteen input[type=file]');
-upload.addEventListener('dragenter focus click', (e) => {upload.setAttribute('title', 'drag-entered');})
-upload.addEventListener('dragleave blur drop', (e) => {upload.setAttribute('title', 'drag-n-drop');})
+upload.addEventListener('dragenter', (e) => {upload.setAttribute('title', 'drag-entered');})
+upload.addEventListener('dragleave', (e) => {upload.setAttribute('title', 'drag-n-drop');})
 upload.addEventListener('change', () => {
         upload.setAttribute('title', 'file-in');
         const filesNumber = upload.files.length;

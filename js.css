@@ -210,7 +210,7 @@ body > div {
 #eighteen div {
         background: white;
 }
-#eighteen input {
+#eighteen input[title=drag-n-drop] {
         width: 400px;
         height: 300px;
         background: orange;
@@ -222,7 +222,7 @@ body > div {
         border: dotted black 5px;
         padding: 146px 46px;
 }
-#eighteen input:hover {
+#eighteen input[title=drag-n-drop]:hover {
         border: dotted red 2px;
         background: gold;
         padding: 146px 48px;
